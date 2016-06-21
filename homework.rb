@@ -28,8 +28,11 @@ puts max(a)
 brand = ["Dominos","KFC","Taco Bell"]
 food = ["Pizza","Chicken","Taco"]
 
-h = brand.zip(food).to_h
+h = {}
 
+for i in 0 .. brand.length
+	h =[ brand[i}=food[i]]
+end
 puts h
 
 # Write a program that prints the numbers from 1 to 100, except:
