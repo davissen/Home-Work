@@ -31,7 +31,7 @@ food = ["Pizza","Chicken","Taco"]
 h = {}
 
 for i in 0 .. brand.length
-	h =[ brand[i}=food[i]]
+	h =[ brand[i]=food[i]]
 end
 puts h
 
